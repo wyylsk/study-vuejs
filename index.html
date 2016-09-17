@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <script type="text/javascript" src="static/js/vue.min.js"></script>
 </head>
 <body>
-dd
+<div id="app">
+    {{message}}
+</div>
 </body>
 </html>
+<script type="text/javascript">
+    new Vue({
+        el:"#app",
+        data:{
+            message:"hello world!"
+        }
+    });
+</script>
