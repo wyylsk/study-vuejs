@@ -14,4 +14,5 @@ $data=array(
         array('title'=>'条目三的标题','smallinfo'=>'条目三的简介')
     )
 );
+exit(json_encode($data));
 ?>

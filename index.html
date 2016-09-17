@@ -8,14 +8,15 @@
 <body>
 <div id="app">
     {{message}}
+    <p v-if="greeting"> hello !</p>
 </div>
 </body>
 </html>
 <script type="text/javascript">
-    new Vue({
+    var tt=new Vue({
         el:"#app",
         data:{
-            message:"hello world!"
+            message:"hello world!",greeting:true
         }
     });
 </script>
